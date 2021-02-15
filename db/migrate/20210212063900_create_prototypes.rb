@@ -1,5 +1,4 @@
 class CreatePrototypes < ActiveRecord::Migration[6.0]
-  belongs_to :user
   def change
     create_table :prototypes do |t|
       t.string     :title,       null: false
